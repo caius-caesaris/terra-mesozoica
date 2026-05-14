@@ -1,0 +1,128 @@
+/* GERAL */
+
+body {
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    font-size: 2.5vh;
+
+    /* ajustes normalize */
+    margin: 0px;
+    background-color: rgb(15, 15, 15);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    text-indent: 2em;
+    margin-left: 2vw;
+    margin-right: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-left: 2vw;
+}
+
+li, img {
+    color: rgb(255, 255, 255);
+    text-indent: 0px;
+}
+
+ul {
+    color: rgb(255, 255, 255);
+    text-indent: -1em;
+}
+
+a {
+    color: rgb(255, 79, 79);
+    margin-left: 1em;
+}
+
+hr {
+    width: 98vw;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(10, 10, 10);
+    height: 10vh;
+}
+
+#figure_icon {
+    margin: 0px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#icon {
+    height: 100%;
+}
+
+#title {
+    margin-top: 3.5vh;
+    margin-left: 0.5em;
+    text-indent: 0px;
+}
+
+/* MENU */
+
+.menu {
+    background-color: rgb(10, 10, 10);
+    height: 10vh;
+    /* flex */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* flex */
+    display: flex;
+    flex-grow: 0.2;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intext {
+    width: 40vw;
+    height: auto;
+    margin-top: 10px;
+}
+
+.imagem {
+    width: auto;
+    height: 25vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 2vh;
+}
+
+footer h2 {
+    font-size: 1.3em;
+}
+
+.inlink {
+    margin-left: 0.125em;
+}

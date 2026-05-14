@@ -1,0 +1,50 @@
+A era mesozóica, é uma era geológica da Terra que se deu entre 252 milhões e 66 milhões de anos atrás, durando aproximadamente 186 milhões de anos.
+Ao longo de milhões de anos, as formas de vida se diversificaram e evoluíram e o planeta também passou por mudanças. A era se divide em 3 períodos: Triássico, Jurássico e Cretáceo
+e são importantes para dividir mudanças na vida, no clima e na geologia da Terra, além disso marcam extinções de várias formas de vida antes existentes no planeta. Abaixo você encontrará conteúdo explicativo para o período Jurássico.
+
+O período jurássico se destaca pelo clima quente e úmido, a fragmentação da Pangea, domínio global dos dinossauros e diversificação da flora.
+Durante esse período os dias duravam em torno de 23 horas e a temperatura média do planeta era de aproximadamete 18°C (3-10°C mais quente que hoje). Os gases de efeito estufa, principalmente CO², tinham níveis atmosféricos mais elevados. Isso fazia da Terra um planeta mais quente que hoje, logo mais água evaporava, mantendo o clima úmido.
+
+A fauna do período jurássico era bem diversificada. Para englobar todo o período, podemos destacar os dinossauros, répteis voadores (pterossauros) e répteis marinhos.
+Nesse período também existiam aves primitivas, mamíferos primitivos, crocodilomorfos, anfíbios, insetos e invertebrados tanto na terra quanto na água.
+Como exemplos dessa biodiversidade, podemos citar:
+
+A flora do período jurássico também era de grande variedade. Diferente de hoje, não existiam flores nem gramíneas, o que preenchia o solo naquela época eram florestas abundantes de coníferas, cicadófitas, samambaias, cavalinhas, ginkgos, musgos e outras plantas menores.
+Como exemplo dessa flora diversa podemos citar a Araucária, Cyathea, Cycas e Equisetum.
+
+BACKUP:
+<!-- <ul> Pterossauros:
+        <li>Dimorphodon</li>
+        <li>Dorygnathus</li>
+        <li>Pterodactylus</li>
+      </ul>
+
+      <ul> Répteis marinhos:
+        <li>Ichthyosaurus</li>
+        <li>Liopleurodon</li>
+        <li>Metriorhynchus</li>
+        <li>Plesiosaurus</li>
+        <li>Simolestes</li>
+        <li>Steneosaurus</li>
+      </ul>
+
+      <ul> Mamíferos:
+        <li>Agilodocodon</li>
+        <li>Castorocauda</li>
+        <li>Morganucodon</li>
+        <li>Sinoconodon</li>
+        <li>Volaticotherium</li>
+      </ul>
+
+      <ul> Insetos:
+        <li>Baratas</li>
+        <li>Besouros</li>
+        <li>Gafanhotos</li>
+        <li>Libélulas</li>
+        <li>Moscas</li>
+      </ul> -->
+
+- Jurássico -
+clima: tropical
+temperatura média do planeta: aproximadamente 18°C (3-10°C mais quente que hoje)
+duração do dia: 23 horas
