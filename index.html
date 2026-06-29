@@ -12,13 +12,13 @@
 
   <title>Terra Mesozóica</title>
 
-  <meta name="description" content="Terra Mesozóica documenta conhecimentos sobre paleontologia da era Mesozóica, em especial. Procure mais fontes se para aprofundar nos assuntos aqui contidos.">
+  <meta name="description" content="Terra Mesozóica documenta conhecimentos sobre paleontologia da era Mesozóica, em especial. Procure mais fontes sobre os assuntos aqui contidos.">
   <meta name="keywords" content="terra mesozóica, terra mesozoica, sítio digital paleontológico, sitio digital paleontologico, paleontologia, mesozoica">
   <meta name="author" content="Caio Cesar">
   <meta name="robots" content="index, follow">
 
   <meta property="og:title" content="Terra Mesozóica">
-  <meta property="og:description" content="Terra Mesozóica é uma página que busca documentar conhecimento sobre paleontologia, especialmente da era Mesozóica. Considere procurar mais fontes para aprofundar seu conhecimento nos assuntos aqui contidos.">
+  <meta property="og:description" content="Terra Mesozóica documenta conhecimentos sobre paleontologia da era Mesozóica, em especial. Procure mais fontes sobre os assuntos aqui contidos.">
   <meta property="og:image" content="https://caius-caesaris.github.io/terra-mesozoica/img/icon.png">
   <meta property="og:url" content="https://caius-caesaris.github.io/terra-mesozoica/">
   <meta property="og:type" content="website">
@@ -91,7 +91,7 @@
       </p>
 
       <figure class="galeria">
-        <img class="intext" src="img/Torvosaurus.jpg" alt="Torvosaurus tanneri" title="Torvosaurus tanneri">
+        <img class="intext" src="img/Torvosaurus.jpg" alt="Torvosaurus tanneri" title="Torvosaurus tanneri" loading="lazy">
       </figure>
       
       <h3>Sobre a flora Jurássica</h3>
@@ -101,7 +101,7 @@
       </p>
 
       <figure class="galeria">
-        <img class="intext" src="img/Equisetum.jpg" alt="Equisetum (cavalinha)" title="Equisetum (cavalinha)">
+        <img class="intext" src="img/Equisetum.jpg" alt="Equisetum (cavalinha)" title="Equisetum (cavalinha)" loading="lazy">
       </figure>
     </section>
 
@@ -112,10 +112,10 @@
     <section>
       <h2>Galeria</h2>
       <figure class="galeria">
-        <img class="imagem" src="img/Torvosaurus.jpg" alt="Torvosaurus tanneri" title="Torvosaurus tanneri">
-        <img class="imagem" src="img/Equisetum.jpg" alt="Equisetum (cavalinha)" title="Equisetum (cavalinha)">
-        <img class="imagem" src="img/Agilodocodon.jpg" alt="Agilocodon scansorius" title="Agilocodon scansorius">
-        <img class="imagem" src="img/Kariridraco.jpg" alt="Kariridraco" title="Kariridraco">
+        <img class="imagem" src="img/Torvosaurus.jpg" alt="Torvosaurus tanneri" title="Torvosaurus tanneri" loading="lazy">
+        <img class="imagem" src="img/Equisetum.jpg" alt="Equisetum (cavalinha)" title="Equisetum (cavalinha)" loading="lazy">
+        <img class="imagem" src="img/Agilodocodon.jpg" alt="Agilocodon scansorius" title="Agilocodon scansorius" loading="lazy">
+        <img class="imagem" src="img/Kariridraco.jpg" alt="Kariridraco" title="Kariridraco" loading="lazy">
       </figure>
     </section>
 
@@ -129,8 +129,8 @@
       </ul>
 
       <div class="banner">
-        <img id="earth" src="img/earth.png" alt="earth">
-        <img id="meteor" src="img/meteor.png" alt="meteor">
+        <img id="earth" src="img/earth.png" alt="earth" loading="lazy">
+        <img id="meteor" src="img/meteor.png" alt="meteor" loading="lazy">
       </div> <br>
     </section>
 
@@ -143,37 +143,38 @@
 
       <div id="divflexcomunidade">
         <figure id="icone_comunidade">
-          <img src="img/community.png" alt="junte-se a nós">
+          <img src="img/community.png" alt="junte-se a nós" loading="lazy">
         </figure>
 
         <form action="#header" id="comunidade">
           <fieldset> <legend>Campos necessários:</legend>
             <div class="label">
             <label class="login" for="input_nome">Usuário:</label>
-            <input class="input" type="text" id="input_nome" required>
+            <input class="input" type="text" id="input_nome" required aria-label="preencher o nome de usuário">
             </div>
             <br>
             <div class="label">
             <label class="login" for="input_senha">Senha:</label>
-            <input class="input" type="password" id="input_senha" required>
+            <input class="input" type="password" id="input_senha" required aria-label="preencher a senha">
             </div>
             <br>
             <div class="label">
             <label class="login" for="input_email">E-mail:</label>
-            <input class="input" type="email" id="input_email" required>
+            <input class="input" type="email" id="input_email" required aria-label="preencher o e-mail">
             </div>
             <br>
             <div class="label">
             <label class="login" for="input_telefone">Telefone:</label>
-            <input class="input" type="tel" id="input_telefone" required>
+            <input class="input" type="tel" id="input_telefone" required aria-label="preencher o telefone">
             </div>
             <br>
             <div class="label">
             <label class="login" for="input_nascimento">Nascimento:</label>
-            <input class="input" type="date" id="input_nascimento" required>
+            <input class="input" type="date" id="input_nascimento" required aria-label="preencher a data de nascimento">
             </div>
             <br>
-            <input id="submit" type="submit" value="enviar">
+            <label for="input_submit"></label>
+            <input id="input_submit" type="submit" value="enviar" aria-label="preencher o formulário">
           </fieldset>
         </form>
       </div>
@@ -187,12 +188,12 @@
     <section id="mosaico">
       <h2>Mosaico</h2>
       <div id="container_mosaico">
-        <img class="mos" src="img/Borhyaena-tuberata.jpg" alt="Borhyaena tuberata">
-        <img class="mos" src="img/Diluvicursor.png" alt="Diluvicursor">
-        <img class="mos" src="img/Istiorachis.jpg" alt="Istiorachis">
-        <img class="mos" src="img/Philovenator-curriei.png" alt="Philovenator curriei">
-        <img class="mos" src="img/Navaornis.png" alt="Navaornis">
-        <img class="mos" src="img/Amphimachairodus-hezhengensis.jpg" alt="Amphimachairodus hezhengensis">
+        <img class="mos" src="img/Borhyaena-tuberata.jpg" alt="Borhyaena tuberata" loading="lazy">
+        <img class="mos" src="img/Diluvicursor.png" alt="Diluvicursor" loading="lazy">
+        <img class="mos" src="img/Istiorachis.jpg" alt="Istiorachis" loading="lazy">
+        <img class="mos" src="img/Philovenator-curriei.png" alt="Philovenator curriei" loading="lazy">
+        <img class="mos" src="img/Navaornis.png" alt="Navaornis" loading="lazy">
+        <img class="mos" src="img/Amphimachairodus-hezhengensis.jpg" alt="Amphimachairodus hezhengensis" loading="lazy">
       </div>
     </section>
 
