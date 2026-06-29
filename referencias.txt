@@ -1,0 +1,360 @@
+https://commons.wikimedia.org/wiki/File:Amphimachairodus_hezhengensis_life_restoration_-_Jiangzuo_et_al_2023.jpg
+
+<svg viewBox="0 0 1920 700" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+    
+        <!-- Céu -->
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#2b0000"/>
+          <stop offset="35%" stop-color="#8b1200"/>
+          <stop offset="70%" stop-color="#d94315"/>
+          <stop offset="100%" stop-color="#ffb15a"/>
+        </linearGradient>
+    
+        <!-- Sol -->
+        <radialGradient id="sunGlow">
+          <stop offset="0%" stop-color="#fff6c8"/>
+          <stop offset="30%" stop-color="#ffd56f"/>
+          <stop offset="100%" stop-color="#ffd56f" stop-opacity="0"/>
+        </radialGradient>
+    
+        <!-- Névoa -->
+        <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+          <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+        </linearGradient>
+    
+        <filter id="blur1">
+          <feGaussianBlur stdDeviation="25"/>
+        </filter>
+    
+        <filter id="blur2">
+          <feGaussianBlur stdDeviation="10"/>
+        </filter>
+    
+      </defs>
+    
+      <!-- Fundo -->
+      <rect width="1920" height="700" fill="url(#sky)"/>
+    
+      <!-- Sol -->
+      <circle cx="980" cy="260" r="260" fill="url(#sunGlow)"/>
+    
+      <!-- Raios atmosféricos -->
+      <g opacity="0.12">
+        <path d="M920 0 L1080 0 L1200 700 L800 700 Z" fill="#fff"/>
+        <path d="M1040 0 L1180 0 L1400 700 L980 700 Z" fill="#fff"/>
+      </g>
+    
+      <!-- Montanhas distantes -->
+      <path
+        d="M0 350
+           L180 280
+           L360 330
+           L540 240
+           L760 340
+           L950 210
+           L1150 320
+           L1350 250
+           L1580 340
+           L1920 260
+           L1920 700
+           L0 700 Z"
+        fill="#502015"
+        opacity="0.55"/>
+    
+      <!-- Montanhas médias -->
+      <path
+        d="M0 430
+           L200 300
+           L420 380
+           L620 270
+           L830 420
+           L1040 260
+           L1240 380
+           L1500 290
+           L1740 420
+           L1920 330
+           L1920 700
+           L0 700 Z"
+        fill="#2d120d"
+        opacity="0.8"/>
+    
+      <!-- Montanhas frontais -->
+      <path
+        d="M0 520
+           L150 400
+           L320 480
+           L520 330
+           L760 520
+           L980 340
+           L1200 520
+           L1450 350
+           L1700 510
+           L1920 420
+           L1920 700
+           L0 700 Z"
+        fill="#120707"/>
+    
+      <!-- Névoa -->
+      <rect
+        x="0"
+        y="250"
+        width="1920"
+        height="450"
+        fill="url(#fog)"
+        filter="url(#blur1)"/>
+
+        <g stroke="#fff" stroke-width="1.2" opacity="0.8">
+          <line x1="520" y1="102" x2="520" y2="118"/>
+          <line x1="512" y1="110" x2="528" y2="110"/>
+        
+          <line x1="980" y1="42" x2="980" y2="58"/>
+          <line x1="972" y1="50" x2="988" y2="50"/>
+        
+          <line x1="1480" y1="62" x2="1480" y2="78"/>
+          <line x1="1472" y1="70" x2="1488" y2="70"/>
+        </g>
+
+        <g fill="#fff">
+
+          <!-- estrelas maiores -->
+          <circle cx="120" cy="80" r="2.5"/>
+          <circle cx="280" cy="60" r="2"/>
+          <circle cx="520" cy="110" r="2.5"/>
+          <circle cx="760" cy="70" r="2"/>
+          <circle cx="980" cy="50" r="2.5"/>
+          <circle cx="1240" cy="90" r="2"/>
+          <circle cx="1480" cy="70" r="2.5"/>
+          <circle cx="1720" cy="120" r="2"/>
+        
+          <!-- estrelas médias -->
+          <circle cx="60" cy="140" r="1.5"/>
+          <circle cx="210" cy="180" r="1.5"/>
+          <circle cx="420" cy="50" r="1.5"/>
+          <circle cx="620" cy="160" r="1.5"/>
+          <circle cx="840" cy="130" r="1.5"/>
+          <circle cx="1100" cy="180" r="1.5"/>
+          <circle cx="1320" cy="140" r="1.5"/>
+          <circle cx="1560" cy="170" r="1.5"/>
+          <circle cx="1820" cy="90" r="1.5"/>
+        
+          <!-- estrelas pequenas -->
+          <circle cx="90" cy="40" r="1"/>
+          <circle cx="170" cy="100" r="1"/>
+          <circle cx="350" cy="140" r="1"/>
+          <circle cx="470" cy="70" r="1"/>
+          <circle cx="690" cy="120" r="1"/>
+          <circle cx="890" cy="180" r="1"/>
+          <circle cx="1050" cy="100" r="1"/>
+          <circle cx="1180" cy="50" r="1"/>
+          <circle cx="1390" cy="180" r="1"/>
+          <circle cx="1510" cy="120" r="1"/>
+          <circle cx="1670" cy="60" r="1"/>
+          <circle cx="1850" cy="150" r="1"/>
+        
+        </g>
+    
+      <!-- Vegetação distante -->
+      <g fill="#060606">
+    
+        <!-- árvores -->
+        <polygon points="250,510 280,430 310,510"/>
+        <rect x="275" y="505" width="8" height="30"/>
+    
+        <polygon points="500,520 535,420 570,520"/>
+        <rect x="530" y="515" width="10" height="35"/>
+    
+        <polygon points="1400,520 1435,430 1470,520"/>
+        <rect x="1430" y="515" width="10" height="35"/>
+    
+        <polygon points="1650,530 1685,430 1720,530"/>
+        <rect x="1680" y="525" width="10" height="35"/>
+    
+      </g>
+
+      <g transform="translate(1420,340)" fill="#080808">
+
+        <!-- tanque -->
+        <rect x="-50" y="0" width="100" height="80" rx="6"/>
+      
+        <ellipse cx="0" cy="0" rx="50" ry="12"/>
+        <ellipse cx="0" cy="80" rx="50" ry="12"/>
+      
+        <rect x="-40" y="80" width="10" height="140"/>
+        <rect x="-15" y="80" width="10" height="140"/>
+        <rect x="15" y="80" width="10" height="140"/>
+        <rect x="40" y="80" width="10" height="140"/>
+      
+        <line x1="-35" y1="100" x2="35" y2="170"
+              stroke="#080808" stroke-width="6"/>
+        <line x1="35" y1="100" x2="-35" y2="170"
+              stroke="#080808" stroke-width="6"/>
+      
+        <rect x="-8" y="40" width="100" height="8"/>
+        <rect x="80" y="40" width="8" height="60"/>
+      
+      </g>
+
+      <g opacity="0.85">
+
+        <!-- trilho superior -->
+        <line x1="0" y1="560" x2="1920" y2="560"
+              stroke="#111" stroke-width="7"/>
+      
+        <!-- trilho inferior -->
+        <line x1="0" y1="600" x2="1920" y2="600"
+              stroke="#111" stroke-width="7"/>
+      
+        <!-- dormentes -->
+        <g stroke="#1b1b1b" stroke-width="10">
+      
+          <line x1="40" y1="550" x2="40" y2="610"/>
+          <line x1="120" y1="550" x2="120" y2="610"/>
+          <line x1="200" y1="550" x2="200" y2="610"/>
+          <line x1="280" y1="550" x2="280" y2="610"/>
+          <line x1="360" y1="550" x2="360" y2="610"/>
+          <line x1="440" y1="550" x2="440" y2="610"/>
+          <line x1="520" y1="550" x2="520" y2="610"/>
+          <line x1="600" y1="550" x2="600" y2="610"/>
+          <line x1="680" y1="550" x2="680" y2="610"/>
+          <line x1="760" y1="550" x2="760" y2="610"/>
+          <line x1="840" y1="550" x2="840" y2="610"/>
+          <line x1="920" y1="550" x2="920" y2="610"/>
+          <line x1="1000" y1="550" x2="1000" y2="610"/>
+          <line x1="1080" y1="550" x2="1080" y2="610"/>
+          <line x1="1160" y1="550" x2="1160" y2="610"/>
+          <line x1="1240" y1="550" x2="1240" y2="610"/>
+          <line x1="1320" y1="550" x2="1320" y2="610"/>
+          <line x1="1400" y1="550" x2="1400" y2="610"/>
+          <line x1="1480" y1="550" x2="1480" y2="610"/>
+          <line x1="1560" y1="550" x2="1560" y2="610"/>
+          <line x1="1640" y1="550" x2="1640" y2="610"/>
+          <line x1="1720" y1="550" x2="1720" y2="610"/>
+          <line x1="1800" y1="550" x2="1800" y2="610"/>
+          <line x1="1880" y1="550" x2="1880" y2="610"/>
+      
+        </g>
+      
+      </g>
+
+      <g transform="translate(760,420)" fill="#050505" opacity="0.9">
+
+        <!-- sombra -->
+        <ellipse cx="0" cy="95" rx="110" ry="20" opacity="0.3"/>
+      
+        <!-- corpo -->
+        <ellipse cx="0" cy="40" rx="90" ry="55"/>
+      
+        <!-- ombros -->
+        <ellipse cx="-35" cy="15" rx="45" ry="40"/>
+        <ellipse cx="35" cy="15" rx="45" ry="40"/>
+      
+        <!-- cabeça -->
+        <circle cx="90" cy="0" r="35"/>
+      
+        <!-- focinho -->
+        <ellipse cx="118" cy="8" rx="18" ry="12"/>
+      
+        <!-- orelhas -->
+        <circle cx="72" cy="-28" r="10"/>
+        <circle cx="103" cy="-32" r="10"/>
+      
+        <!-- patas dianteiras -->
+        <rect x="35" y="70" width="22" height="65" rx="8"/>
+        <rect x="65" y="70" width="22" height="65" rx="8"/>
+      
+        <!-- patas traseiras -->
+        <rect x="-60" y="65" width="24" height="70" rx="8"/>
+        <rect x="-20" y="65" width="24" height="70" rx="8"/>
+      
+      </g>
+    
+      <!-- Cavaleiro -->
+      <g transform="translate(960,470)" fill="#000">
+
+        <!-- sombra -->
+        <ellipse cx="0" cy="80" rx="140" ry="25" opacity="0.35"/>
+      
+        <!-- corpo -->
+        <ellipse cx="0" cy="20" rx="90" ry="40"/>
+      
+        <!-- pescoço -->
+        <path d="
+          M55,-5
+          C80,-45 110,-70 135,-60
+          L120,-15
+          Z"/>
+      
+        <!-- cabeça -->
+        <path d="
+          M120,-60
+          C155,-70 175,-55 180,-25
+          C170,-5 145,5 120,-5
+          Z"/>
+      
+        <!-- orelhas -->
+        <polygon points="145,-72 150,-92 160,-72"/>
+        <polygon points="165,-68 172,-88 180,-68"/>
+      
+        <!-- cauda -->
+        <path d="
+          M-90,10
+          C-130,-10 -145,40 -110,75
+          C-150,45 -150,5 -120,-25
+          Z"/>
+      
+        <!-- pernas traseiras -->
+        <path d="M-60,50 L-70,145 L-50,145 L-35,50 Z"/>
+        <path d="M-20,50 L-25,145 L-5,145 L5,50 Z"/>
+      
+        <!-- pernas dianteiras -->
+        <path d="M35,50 L25,145 L45,145 L55,50 Z"/>
+        <path d="M70,45 L80,145 L100,145 L90,45 Z"/>
+      
+        <!-- cavaleiro -->
+        <circle cx="20" cy="-60" r="18"/>
+        <rect x="5" y="-45" width="30" height="45"/>
+      
+        <!-- chapéu -->
+        <ellipse cx="20" cy="-78" rx="35" ry="7"/>
+        <rect x="5" y="-95" width="30" height="18"/>
+      
+        <!-- braço -->
+        <rect x="25" y="-35" width="45" height="6"
+              transform="rotate(-10 25 -35)"/>
+      
+      </g>
+    
+      <!-- Escurecimento inferior -->
+      <rect
+        y="500"
+        width="1920"
+        height="200"
+        fill="#000"
+        opacity="0.25"/>
+    
+      <!-- Título -->
+      <text
+        x="960"
+        y="150"
+        text-anchor="middle"
+        font-size="84"
+        font-family="Georgia, serif"
+        fill="#fff8ea"
+        letter-spacing="10">
+        WILD FRONTIER
+      </text>
+    
+      <text
+        x="960"
+        y="205"
+        text-anchor="middle"
+        font-size="24"
+        font-family="Arial, sans-serif"
+        fill="#ffe2b6"
+        opacity="0.9">
+        Cinematic Western Landscape
+      </text>
+    
+    </svg>
