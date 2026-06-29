@@ -1,5 +1,7 @@
 https://commons.wikimedia.org/wiki/File:Amphimachairodus_hezhengensis_life_restoration_-_Jiangzuo_et_al_2023.jpg
 
+https://squoosh.app/
+
 <svg viewBox="0 0 1920 700" xmlns="http://www.w3.org/2000/svg">
       <defs>
     
